@@ -1,9 +1,9 @@
 class Transfer
   
-  def initialize(sender, receiver, money)
+  def initialize(sender, receiver, amount)
     @sender = sender
     @receiver = receiver
-    @money = money
+    @amount = amount
     @status = "pending"
   end
 end
