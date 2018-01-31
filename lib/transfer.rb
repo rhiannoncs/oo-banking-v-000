@@ -30,4 +30,7 @@ class Transfer
       @receiver.withdraw(@amount)
       @sender.deposit(@amount)
       @status = "reversed"
+    end
+  end
+  
 end
